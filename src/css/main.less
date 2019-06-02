@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+:root {
+  width: 100vw;
+  height: 100vh;
+  font-size: 12px;
+  background: #ddd;
+  color:#444;
+
+  header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25,190,160);
+    // padding:0.5rem 0;
+    div {
+      height: 5rem;
+      line-height: 5rem;
+    }
+
+    .position {
+      flex: 1;
+      box-sizing: border-box;
+      color: whitesmoke;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ::after {
+        display: inline-block;
+        content: "";
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 0.5rem;
+        background-image: url("../icon/down.svg");
+        background-size: cover;
+        vertical-align: middle;
+      }
+
+      .myPosition {
+        font-size: 1.5rem;
+        font-weight: 700;
+        height: 4rem;
+        line-height: 4rem;
+      }
+    }
+
+    .search {
+      flex: 4;
+
+      .search-box {
+        width: 70%;
+        height: 3rem;
+        border-radius: 3rem;
+        // background: lightgray;
+        font-size: 1.3rem;
+        outline: none;
+        border: none;
+        text-indent: 1rem;
+        margin-left: 1rem;
+        opacity: 0.7;
+      }
+
+      .sub {
+        margin-left: 0.5rem;
+        border: none;
+        background-color: transparent;
+        background-image: url("../icon/search.svg");
+        background-size: cover;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        vertical-align: middle;
+        position: relative;
+        outline: none;
+        // top: -5px;
+      }
+    }
+
+    .user {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .user-icon {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        background-image: url("../icon/user.svg");
+        background-size: cover;
+      }
+    }
+  }
+
+  .funcList {
+    padding-bottom:1rem;
+    width: 100%;
+    background: whitesmoke;
+
+    height: 20rem;
+    box-shadow: 0px 2px 2px 0px gray;
+    ul {
+      list-style: none;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+
+      li {
+        width: 20%;
+        height: 10rem;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        i {
+          display: block;
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+
+          background-image: url(../icon/meituanFuncList.png);
+        }
+
+        span {
+          height: 2rem;
+          line-height: 2rem;
+          font-size: 1.2rem;
+        }
+      }
+
+      li:nth-of-type(1) i {
+        background-position: 0 0;
+      }
+
+      li:nth-of-type(2) i {
+        background-position: -72px 0;
+      }
+
+      li:nth-of-type(3) i {
+        background-position: -144px 0;
+      }
+
+      li:nth-of-type(4) i {
+        background-position: -216px 0;
+      }
+
+      li:nth-of-type(5) i {
+        background-position: -288px 0;
+      }
+
+      li:nth-of-type(6) i {
+        background-position: 0 72px;
+      }
+
+      li:nth-of-type(7) i {
+        background-position: -72px 72px;
+      }
+
+       li:nth-of-type(8) i {
+        background-position: -144px 72px;
+      }
+
+      li:nth-of-type(9) i {
+        background-position: -216px 72px;
+      }
+
+      li:nth-of-type(10) i {
+        background-position: -288px 72px;
+      }
+    }
+  }
+
+  .shopList{
+    border-top:1px solid gray;
+    width:100%;
+    margin-top:2rem;
+    box-sizing: border-box;
+    background: whitesmoke;
+    padding-left:1rem;
+    h3{
+      height:5rem;
+      line-height:5rem;
+      font-size:1.8rem;
+      color:black;
+    }
+    ul{
+      width:100%;
+      list-style: none;
+      li{
+        width:100%;
+        height:12rem;
+        box-sizing:border-box;
+        border-top:1px solid gray;
+        padding:1rem 1rem 1rem 0;
+        a{
+          color:#444;
+          // display:inline-block;
+          img{
+            width:10rem;
+            height:10rem;
+            margin-right:1rem;
+            float:left;
+          }
+          .shop-info{
+            float:left;
+            position: relative;
+            height:100%;
+            width:calc(100% - 11rem);
+            .sale{
+              position: absolute;
+              bottom:1rem;
+              right:0;
+              color:#999;
+              font-size:1rem;
+            }
+            .shop-name{
+              font-size:1.6rem;
+              font-weight:400;
+              color:black;
+              margin-bottom:0.5rem;
+              overflow: hidden;
+              width:100%;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+            .shop-des{
+              font-size:1.1rem;
+              height:2rem;
+              line-height:2rem;
+              overflow: hidden;
+              width:100%;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+  
+            .price{
+              position: absolute;
+              bottom:0;
+              .nowPrice{
+                font-size:1.6rem;
+                font-weight:500;
+                color:rgb(25,191,161);
+              }
+              .originPrice{
+                font-size:1.1rem;
+                margin-left:5px;
+              }
+            }
+          }
+        }
+
+      }
+      li:last-of-type{
+        border-bottom:1px solid gray;
+      }
+    }
+    .more{
+      height:5rem;
+      line-height:5rem;
+      font-size:1.5rem;
+      color:rgb(25,190,160);
+      
+    }
+    .more::after{
+      content:"";
+      width:2rem;
+      height:2rem;
+      background-image:url(../icon/right.svg);
+      background-size:100% 100%;
+      display: block;
+      float:right;
+      margin-right:1rem;
+      margin-top:1.5rem;
+    }
+  }
+  footer{
+    width:100%;
+    padding:1rem;
+    box-sizing: border-box;
+    // background:purple;
+    height:20rem;
+    .userInfo{
+      height:5rem;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      span{
+        display: inline-block;
+        width:3rem;
+        text-align: center;
+        font-size:1.2rem;
+        padding:0.3rem 1rem;
+        margin-left:1rem;
+        border-radius: 0.5rem;
+        color:rgb(25,190,160);
+        border:1px solid rgb(25,190,160);
+      }
+      .userInfo-left{
+        flex:1;
+
+      }
+      .userInfo-right{
+        font-size:1.2rem;
+        flex:1;
+        text-align:right;
+        margin-right:1rem;
+      }
+    }
+    .aboutApp{
+      width:100%;
+      height:5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      li{
+        flex:1;
+        border-right:1px solid gray;
+        text-align: center;
+        a{
+          color:rgb(25,190,160);
+          font-size:1.2rem;
+        }
+      }
+      li:last-of-type{
+        border:none;
+      }
+    }
+    .friendLink{
+        font-size:1rem;
+        text-align: center;
+        line-height:1.8rem;
+        a{
+          line-height:1.8rem;
+          color: rgb(25,190,160);
+          margin-right:1.8rem;
+          display: inline-block;
+          word-break: break-word;
+        }
+    }
+    .copyRight{
+      margin-top:2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom:1rem;
+   
+     .CopyInfo{
+        text-align: center;
+        flex:4;
+        a{
+          color:gray;
+        }
+     }
+     .left-line,.right-line{
+       height:50%;
+       border-bottom:1px solid gray;
+        flex:2;
+     }
+    }
+  }
+}

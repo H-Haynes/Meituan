@@ -1,0 +1,83 @@
+[
+   {
+       "shopId":7570005,
+       "shopName":"佛山南海华美达酒店·南之韵西餐厅",
+       "shopDes":"限时秒购自助餐, 周一至周日可用, 剩余22 张",
+       "nowPrice":118,
+       "originPrice":198,
+       "sale":"9649",
+       "star":3.7,
+       "commitNum":226,
+       "goodsImg":[
+        "//p0.meituan.net/deal/44ddfad0fd89f35a275c7aba04e7211d47463.jpg"
+        
+        ],
+        "baozhang":[
+            {
+                "item":"支持随时退款",
+                "icon":"tui",
+                "color":"rgb(20,170,120)"
+            },
+            {
+                "item":"支持过期自动退款",
+                "icon":"tui",
+                "color:":"rgb(20,170,120)"
+            },
+            {
+                "item":"已售9649",
+                "icon":"user"
+            }
+        ],
+       "shopInfo":{
+           "shopPosName":"佛山南海华美达酒店·南之韵西餐厅",
+           "shopPosition":"南海区博爱中路61号（和信广场）",
+           "shopTel":"0757-88888884"
+       },
+       "tip":[
+           {
+               "tipname":"有效期",
+               "tipContent":[ "2018.6.30 至 2019.6.25（周末、法定节假日通用）"]
+           },
+           {
+               "tipname":"使用规则",
+               "tipContent":[
+                    "本优惠活动是酒店感恩回馈新老客户一直以来的支持，特推出每日40份118元特价优惠抢购~（美团网每天37张券，大众点评网每天3张券）",
+                    "商家提供免费WiFi",
+                    "停车位收费标准:酒店免费停车",
+                    "无需预约，消费高峰期可能需要等位",
+                    "部分菜品因时令原因有所不同，请以店内当日实际供应为准",
+                    "团购用户不可同时享受商家其他优惠",
+                    "无需预约，消费高峰期可能需要等位"
+             
+               ]
+           }
+
+       ],
+       "comment":[
+           {
+                "commentPeople":"张一厽",
+                "peopleHeadImg":"https://img.meituan.net/avatar/bc20abfca582ed34b39d753af88e238648301.jpg@148w_148h_1e_1c",
+                "giveStar":5,
+                "time":"2019-5-11",
+                "commentText": "特意带了一家大小过来吃的，菜品不错，牛扒，花甲，三文鱼刺身，炖汤，甜品都好吃，小哥哥小姐姐的服务也很好",
+                "commentImg":[
+                    "//p0.meituan.net/shaitu/ad9751b4299f5c8383b0d1481a13293f2717478.jpg@220w_220h_1e_1c",
+                    "//p0.meituan.net/shaitu/d2c3ce254922c2415486bcceda073f212150760.jpg@220w_220h_1e_1c",
+                    "//p0.meituan.net/shaitu/80ba8034950d4a9d6cf8c89221caa34c2261288.jpg@220w_220h_1e_1c",
+                    "//p0.meituan.net/shaitu/8a97872490026413dc4589c947dbd4f82484753.jpg@220w_220h_1e_1c"        
+                ]
+           },
+           {
+            "commentPeople":"liangqi容",
+            "peopleHeadImg":"https://img.meituan.net/avatar/e7c758b83f04c2782f044ff843855a1352378.jpg@148w_148h_1e_1c",
+            "giveStar":5,
+            "time":"2019-4-07",
+            "commentText":"服务】非常棒 环境非常棒【等位】非常快总结   非常nice！！！",
+            "commentImg":[
+                "//p1.meituan.net/shaitu/734dd83fccb25bbe5de8e2f8153949ca471449.jpg@220w_220h_1e_1c"
+            ]
+            }
+       ]
+
+   }
+]
